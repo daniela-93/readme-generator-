@@ -17,7 +17,8 @@ node index.js
 https://github.com/daniela-93/readme-generator-.git
 
 ## Questions 
-If you any questions about how the application functions feel free to reach out 
+For any questions, reach out via email
+
 daniela.acuna93@gmail.com 
 
 ## Contribution
