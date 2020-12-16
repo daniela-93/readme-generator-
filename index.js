@@ -4,23 +4,23 @@ const promptUser = () => {
 
     {
       type: 'input',
-      name: 'Title',
+      name: 'Title ',
       message: 'What is the title for your project?'
     },
     {
       type: 'input',
-      name: 'description',
+      name: 'Description',
       message: 'Provide a description of the project (Required)'
     },
     {
       type: 'checkbox',
-      name: 'languages',
+      name: 'Languages',
       message: 'What did you build this project with? (Check all that apply)',
       choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
     },
     {
       type: 'input',
-      name: 'link',
+      name: 'Link',
       message: 'Enter the GitHub link to your project. (Required)'
     },
     {
@@ -49,11 +49,10 @@ const promptUser = () => {
       name: 'Tests',
       message: 'Lists for tests of application '
      
-    },
-    {
+    
 
- 
-    }
-  ]);
+  }
+]);
 };
+
 promptUser().then(answers => console.log(answers));
